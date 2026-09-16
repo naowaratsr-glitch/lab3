@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orders</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar">
+    <div class="brand"><span>A</span><b>Admin System</b></div>
+    <nav>
+        <a href="dashboard.html">📊 Dashboard</a>
+        <a href="products.html">📦 Products</a>
+        <a href="customers.html">👥 Customers</a>
+        <a class="active" href="orders.html">🛒 Orders</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="login.html">🚪 Logout</a>
+    </nav>
+</aside>
+<main class="content">
+    <div class="topbar">
+        <div><h1>Orders</h1><p>รายการสั่งซื้อ</p></div>
+        <div class="user">Admin</div>
+    </div>
+
+    <section class="panel table-wrap">
+    <table>
+        <thead><tr><th>Order ID</th><th>ลูกค้า</th><th>สินค้า</th><th>ราคา</th><th>สถานะ</th></tr></thead>
+        <tbody>
+            <tr><td>#001</td><td>เนาวรัตน์</td><td>สินค้า A</td><td>฿12,000</td><td><span class="status success">สำเร็จ</span></td></tr>
+            <tr><td>#002</td><td>วิโรจน์</td><td>สินค้า B</td><td>฿25,000</td><td><span class="status pending">รอดำเนินการ</span></td></tr>
+            <tr><td>#003</td><td>เรวดี</td><td>สินค้า C</td><td>฿1,500</td><td><span class="status success">สำเร็จ</span></td></tr>
+            <tr><td>#004</td><td>วิลลี่</td><td>สินค้า D</td><td>฿900</td><td><span class="status success">สำเร็จ</span></td></tr>
+            <tr><td>#005</td><td>แจ็คกี้</td><td>สินค้า E</td><td>฿650</td><td><span class="status pending">รอดำเนินการ</span></td></tr>
+        </tbody>
+    </table>
+    </section>
+</main>
+</div>
+</body>
+</html>
